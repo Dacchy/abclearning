@@ -1,0 +1,7 @@
+<Files user.html>
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile C:\Mine2\.htpasswd
+Require valid-user
+</Files>
+

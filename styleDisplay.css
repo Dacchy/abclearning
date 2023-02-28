@@ -1,0 +1,63 @@
+@media (min-width:320px) {
+    /* CSS styles for small smartphones */
+    
+    /* Set the width of the body element to 100% to fill the screen */
+    body {
+      width: 100%;
+    }
+    
+    /* Adjust the font size to be more readable on a small screen */
+    p {
+      font-size: 16px;
+    }
+    
+    /* Stack elements vertically instead of horizontally to fit the narrow screen */
+    .nav li {
+      display: block;
+    }
+    
+    /* Remove or reduce margins and padding to make better use of the limited screen space */
+    .container {
+      margin: 0;
+      padding: 10px;
+    }
+    
+    /* Use a smaller logo image to reduce the page size and improve loading time */
+    .logo {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  
+  @media (min-width: 1024px) {
+    /* CSS styles for desktop screens */
+    
+    /* Reset the width of the body element to its original value */
+    body {
+      width: auto;
+    }
+    
+    /* Adjust the font size back to its original value */
+    p {
+      font-size: 18px;
+    }
+    
+    /* Display the navigation items horizontally again */
+    .nav li {
+      display: inline-block;
+    }
+    
+    /* Restore margins and padding to their original values */
+    .container {
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    /* Use a larger logo image for better visibility on desktop screens */
+    .logo {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  

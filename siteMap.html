@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sitemap ABC Learning Center</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+  <script>
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+  </script>
+  
+  <style>
+  .ui-menu { width: 150px; }
+  </style>
+  <link rel="stylesheet" href="styleDisplay.css">
+  <title>Sitemap</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      color: #333;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    li {
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 10px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+    }
+    a {
+      color: #000;
+      text-decoration: none;
+      font-size: 1.2em;
+      display: block;
+    }
+    ul ul {
+      margin-top: 20px;
+    }
+    
+    .menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+    
+    #menu {
+      margin-top: 10px;
+    }
+    
+    /* Responsive styles */
+    @media only screen and (max-width: 600px) {
+      li {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>ABC Learning Center Sitemap</h1>
+    <ul>
+      <li>
+        <a href="home.html">Home</a>
+      </li>
+      <li>
+        <a href="about.html">About Us</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+      <ul id="menu" class="menu-container">
+        <li><div>Courses</div>
+          <ul>
+            <li class="ui-state-disabled"><div>Courses</div></li>
+            <li>
+              <p>Select Courses</p>
+              <ul>
+                <li>
+                  <a href="courseScheduleInternet.html">Basics of Internet</a>
+                </li>
+                <li>
+                  <a href="courseScheduleMsOffice.html">Basics of MS Office</a>
+                </li>
+                <li>
+                  <a href="courseScheduleHtml.html">Basics of HTML</a>
+                </li>
+                <li>
+                  <a href="courseScheduleJava.html">Basics of Java</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <br>
+      <li>
+        <a href="privacyPolicy.html">Privacy Policy</a>
+      </li>
+      <li>
+        <a href="RegistrationForm.html">Lead Generation</a> 
+      </li>
+      <li>
+        <a href="user.html">Admin System</a> 
+      </li>
+    </ul>
+  </div>
+  
+</body>
+</html>

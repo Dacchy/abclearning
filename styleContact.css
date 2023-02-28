@@ -1,0 +1,288 @@
+.courseImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-style:solid;
+    border-color:white;
+    
+    border-radius: 80px;
+    padding: 5px;
+    width: 450px;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .signUp{
+       line-height: 12px;
+       width: 18px;
+       font-size: 8pt;
+       font-family: tahoma;
+       margin-top: 1px;
+       margin-right: 2px;
+       position:absolute;
+       top:0;
+       right:0;
+   }
+  
+  .header {
+    color: #ffffff;
+    background: url(images/HeaderBG8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #0473aa;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+  .responsive-text {
+    font-size: 30px;
+  }
+  
+  @media (max-width: 600px) {
+    .responsive-text {
+      font-size: 20px;
+    }
+  }
+  
+  
+  .justified-text {
+    text-align: justify;
+  }
+  
+  #container{
+    display: flex; /*specifies that the items in the container should abide by flex styling*/
+    flex-direction: row; /*aligns the items in the container in a row*/
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    text-align: center;
+  }
+  
+  .testimonial .name {
+    font-weight: bold;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .testimonials {
+      flex-direction: column;
+    }
+  
+    .testimonial {
+      margin: 20px 0;
+    }
+  }
+  
+  .name{
+    font-size:larger;
+  }
+  
+  .footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#000000;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #050505;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#000000;
+    margin-bottom:0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #333;
+  }
+
+  form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .social-links {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-links a {
+    margin: 0 10px;
+    font-size: 36px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  @media (max-width: 767px) {
+    form {
+      width: 90%;
+    }
+  }
